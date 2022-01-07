@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="app">
       <h1>Hi there!</h1>
-      {showParagraph && <DemoOutput/>}
       <DemoOutput show={showParagraph}/>
       <Button onClick={toggleParagraphHandler}>Show paragraph</Button>
     </div>
